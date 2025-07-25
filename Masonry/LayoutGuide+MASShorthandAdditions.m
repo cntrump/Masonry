@@ -8,6 +8,8 @@
 
 #import "LayoutGuide+MASShorthandAdditions.h"
 
+#ifdef MAS_SHORTHAND
+
 @implementation MASLayoutGuide (MASShorthandAdditions)
 
 MAS_ATTR_FORWARD(top);
@@ -38,3 +40,5 @@ MAS_ATTR_FORWARD(centerY);
 }
 
 @end
+
+#endif

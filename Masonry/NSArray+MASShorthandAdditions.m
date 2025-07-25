@@ -8,6 +8,8 @@
 
 #import "NSArray+MASShorthandAdditions.h"
 
+#ifdef MAS_SHORTHAND
+
 @implementation NSArray (MASShorthandAdditions)
 
 - (NSArray *)makeConstraints:(void (NS_NOESCAPE^)(MASConstraintMaker *))block {
@@ -23,3 +25,5 @@
 }
 
 @end
+
+#endif
