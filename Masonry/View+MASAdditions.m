@@ -171,6 +171,50 @@
     return [[MASViewAttribute alloc] initWithView:self item:self.safeAreaLayoutGuide layoutAttribute:NSLayoutAttributeCenterY];
 }
 
+- (MASViewAttribute *)mas_keyboardLayoutGuide {
+    return [[MASViewAttribute alloc] initWithView:self item:self.keyboardLayoutGuide layoutAttribute:NSLayoutAttributeNotAnAttribute];
+}
+
+- (MASViewAttribute *)mas_keyboardLayoutGuideLeading {
+    return [[MASViewAttribute alloc] initWithView:self item:self.keyboardLayoutGuide layoutAttribute:NSLayoutAttributeLeading];
+}
+
+- (MASViewAttribute *)mas_keyboardLayoutGuideTrailing {
+    return [[MASViewAttribute alloc] initWithView:self item:self.keyboardLayoutGuide layoutAttribute:NSLayoutAttributeTrailing];
+}
+
+- (MASViewAttribute *)mas_keyboardLayoutGuideLeft {
+    return [[MASViewAttribute alloc] initWithView:self item:self.keyboardLayoutGuide layoutAttribute:NSLayoutAttributeLeft];
+}
+
+- (MASViewAttribute *)mas_keyboardLayoutGuideRight {
+    return [[MASViewAttribute alloc] initWithView:self item:self.keyboardLayoutGuide layoutAttribute:NSLayoutAttributeRight];
+}
+
+- (MASViewAttribute *)mas_keyboardLayoutGuideTop {
+    return [[MASViewAttribute alloc] initWithView:self item:self.keyboardLayoutGuide layoutAttribute:NSLayoutAttributeTop];
+}
+
+- (MASViewAttribute *)mas_keyboardLayoutGuideBottom {
+    return [[MASViewAttribute alloc] initWithView:self item:self.keyboardLayoutGuide layoutAttribute:NSLayoutAttributeBottom];
+}
+
+- (MASViewAttribute *)mas_keyboardLayoutGuideWidth {
+    return [[MASViewAttribute alloc] initWithView:self item:self.keyboardLayoutGuide layoutAttribute:NSLayoutAttributeWidth];
+}
+
+- (MASViewAttribute *)mas_keyboardLayoutGuideHeight {
+    return [[MASViewAttribute alloc] initWithView:self item:self.keyboardLayoutGuide layoutAttribute:NSLayoutAttributeHeight];
+}
+
+- (MASViewAttribute *)mas_keyboardLayoutGuideCenterX {
+    return [[MASViewAttribute alloc] initWithView:self item:self.keyboardLayoutGuide layoutAttribute:NSLayoutAttributeCenterX];
+}
+
+- (MASViewAttribute *)mas_keyboardLayoutGuideCenterY {
+    return [[MASViewAttribute alloc] initWithView:self item:self.keyboardLayoutGuide layoutAttribute:NSLayoutAttributeCenterY];
+}
+
 #endif
 
 #pragma mark - associated properties

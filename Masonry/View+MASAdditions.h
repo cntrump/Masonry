@@ -61,6 +61,18 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, readonly) MASViewAttribute *mas_safeAreaLayoutGuideCenterX API_AVAILABLE(ios(11.0));
 @property (nonatomic, readonly) MASViewAttribute *mas_safeAreaLayoutGuideCenterY API_AVAILABLE(ios(11.0));
 
+@property (nonatomic, readonly) MASViewAttribute *mas_keyboardLayoutGuide API_AVAILABLE(ios(15.0));
+@property (nonatomic, readonly) MASViewAttribute *mas_keyboardLayoutGuideLeading API_AVAILABLE(ios(15.0));
+@property (nonatomic, readonly) MASViewAttribute *mas_keyboardLayoutGuideTrailing API_AVAILABLE(ios(15.0));
+@property (nonatomic, readonly) MASViewAttribute *mas_keyboardLayoutGuideLeft API_AVAILABLE(ios(15.0));
+@property (nonatomic, readonly) MASViewAttribute *mas_keyboardLayoutGuideRight API_AVAILABLE(ios(15.0));
+@property (nonatomic, readonly) MASViewAttribute *mas_keyboardLayoutGuideTop API_AVAILABLE(ios(15.0));
+@property (nonatomic, readonly) MASViewAttribute *mas_keyboardLayoutGuideBottom API_AVAILABLE(ios(15.0));
+@property (nonatomic, readonly) MASViewAttribute *mas_keyboardLayoutGuideWidth API_AVAILABLE(ios(15.0));
+@property (nonatomic, readonly) MASViewAttribute *mas_keyboardLayoutGuideHeight API_AVAILABLE(ios(15.0));
+@property (nonatomic, readonly) MASViewAttribute *mas_keyboardLayoutGuideCenterX API_AVAILABLE(ios(15.0));
+@property (nonatomic, readonly) MASViewAttribute *mas_keyboardLayoutGuideCenterY API_AVAILABLE(ios(15.0));
+
 #endif
 
 /**
