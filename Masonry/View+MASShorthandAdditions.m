@@ -8,6 +8,8 @@
 
 #import "View+MASShorthandAdditions.h"
 
+#ifdef MAS_SHORTHAND
+
 @implementation MAS_VIEW (MASShorthandAdditions)
 
 MAS_ATTR_FORWARD(top);
@@ -66,3 +68,5 @@ MAS_ATTR_FORWARD_AVAILABLE(safeAreaLayoutGuideCenterY, API_AVAILABLE(ios(11.0)))
 }
 
 @end
+
+#endif
